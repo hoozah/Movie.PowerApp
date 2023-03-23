@@ -1,0 +1,8 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_omdbapi-2dget-5f3563bec82f40ad64-5f920f0133bd5c7588",
+    "Name": "OmdbAPI-Get",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo"
+  }
+]

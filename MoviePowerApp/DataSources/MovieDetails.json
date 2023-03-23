@@ -1,0 +1,101 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr059_moviedetails",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr059_moviedetail",
+    "MaxGetRowsCount": 500,
+    "Name": "MovieDetails",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr059_actors": "Actors",
+      "cr059_genre": "Genre",
+      "cr059_imdbid": "imdbID",
+      "cr059_moviedetail_AsyncOperations": "System Jobs",
+      "cr059_moviedetail_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr059_moviedetail_DuplicateBaseRecord": "Duplicate Records (cr059_moviedetail_DuplicateBaseRecord)",
+      "cr059_moviedetail_DuplicateMatchingRecord": "Duplicate Records (cr059_moviedetail_DuplicateMatchingRecord)",
+      "cr059_moviedetail_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr059_moviedetail_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr059_moviedetail_ProcessSession": "Process Sessions",
+      "cr059_moviedetail_SyncErrors": "Sync Errors",
+      "cr059_moviedetailid": "MovieDetail",
+      "cr059_plot": "Plot",
+      "cr059_title": "Title",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "MovieDetails",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "MovieDetails (Views)",
+    "Name": "_cr059_moviedetail_views",
+    "RelatedEntityName": "MovieDetails",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0a605b6e-ed06-4f00-ac22-ff895bb613a4": "MovieDetail Lookup View",
+      "0d3dab91-721c-458d-8aa8-18ed01cb58f4": "Active MovieDetails",
+      "745ecfa7-508c-41f7-a1db-53da76f2eee2": "MovieDetail Associated View",
+      "fd0ff5ce-3eeb-4e5b-afa7-f29734b1c15c": "Inactive MovieDetails",
+      "fdadba3f-d7d9-4dae-bbca-a9278428e83c": "MovieDetail Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Status (MovieDetails)",
+    "Name": "cr059_moviedetail_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "MovieDetails"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "MovieDetails",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (MovieDetails)",
+    "Name": "cr059_moviedetail_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "MovieDetails"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "MovieDetails",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "4012a4e1-0bb5-4b0a-85eb-de7d14f988de": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "OmdbAPI-Get",
+      "iconUri": "https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_omdbapi-2dget-5f3563bec82f40ad64-5f920f0133bd5c7588",
+      "isCustomApiConnection": true,
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "OmdbAPI-Get"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "4012a4e1-0bb5-4b0a-85eb-de7d14f988de"
+  },
+  "aff93f86-ac11-412c-9c65-34f9c6f0147c": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "OmdbAPI",
+      "iconUri": "https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_omdbapi-5f3563bec82f40ad64-5f920f0133bd5c7588",
+      "isCustomApiConnection": true,
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "OmdbAPI"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "aff93f86-ac11-412c-9c65-34f9c6f0147c"
+  }
+}

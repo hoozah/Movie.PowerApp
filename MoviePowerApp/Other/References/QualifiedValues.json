@@ -1,0 +1,18 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cr059_movie_forms",
+      "Namespace": "Movies (Forms)",
+      "Values": {
+        "Information": "b96a4258-2fb2-4046-8cda-7d90f7342adc"
+      }
+    },
+    {
+      "Kind": "default.cds_cr059_moviedetail_forms",
+      "Namespace": "MovieDetails (Forms)",
+      "Values": {
+        "Information": "d9b0ac87-98b1-444d-adde-da45b78644ac"
+      }
+    }
+  ]
+}
